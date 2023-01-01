@@ -1,0 +1,38 @@
+.watchList {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #d6eeee;
+}
+
+button {
+  cursor: pointer;
+  display: block;
+  background-color: rgb(68, 138, 204);
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+button:hover {
+  background-color: rgb(62, 97, 192);
+}
